@@ -25,8 +25,7 @@ The project implements a security enhancement for the Streaming Scan Network (SS
 └── README.md
 </pre>
 
-**## 🛠️ Requirements
-**
+## 🛠️ Requirements
 - **Language**: VHDL
 - **Simulator**: Xilinx Vivado 2020.4 Simulator
 - **Synthesis Tool**: Xilinx Vivado 2020.4 Simulator
