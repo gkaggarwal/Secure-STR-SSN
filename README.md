@@ -13,13 +13,22 @@ The project implements a security enhancement for the Streaming Scan Network (SS
 
 ## 📂 Directory Structure
 <pre>
-├── src/
-│ ├── str_controller.vhd # STR logic for authorization and MISR-based key generation
-│ ├── misr_generator.vhd # MISR module with fixed polynomial and tap points
-│ ├── ssh_register_block.vhd # IJTAG static register with STR-bits
-│ └── top_level_ssh.vhd # Top-level SSH wrapper integrating STR logic
-├── sim/
-│ └── testbench.vhd # Basic testbench for simulating STR-based authorization
+├── VHDL/
+│   ├── Design.vhd                  # Top-level design integrating STR logic
+│   ├── ComparatorWithCounter.vhd  # Compares MISR and user key with counter mechanism
+│   ├── Secure_TDR_bit.vhd         # VHDL entity for secure STR bit behavior
+│   ├── TAP_controller.vhd         # TAP controller to drive IJTAG scan flow
+├── Testbench/
+│   └── Design_tb.vhd              # Testbench for simulating the design
 ├── docs/
 │ └── architecture_diagram.pdf # STR-based SSN block diagram (from the paper)
 └── README.md
+
+## 🛠️ Requirements
+
+- **Language**: VHDL
+- **Simulator**: Xilinx Vivado 2020.4 Simulator
+- **Synthesis Tool**: Xilinx Vivado 2020.4 Simulator
+- **Target**: FPGA or ASIC prototype (tested on Xilinx PYNQ-z2)
+
+---
