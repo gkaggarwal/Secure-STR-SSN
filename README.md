@@ -23,12 +23,12 @@ The project implements a security enhancement for the Streaming Scan Network (SS
 ├── docs/
 │ └── architecture_diagram.pdf # STR-based SSN block diagram (from the paper)
 └── README.md
+---
 
-## 🛠️ Requirements
-
+**## 🛠️ Requirements
+**
 - **Language**: VHDL
 - **Simulator**: Xilinx Vivado 2020.4 Simulator
 - **Synthesis Tool**: Xilinx Vivado 2020.4 Simulator
 - **Target**: FPGA or ASIC prototype (tested on Xilinx PYNQ-z2)
 
----
