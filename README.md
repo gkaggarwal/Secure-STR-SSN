@@ -23,7 +23,7 @@ The project implements a security enhancement for the Streaming Scan Network (SS
 ├── docs/
 │ └── architecture_diagram.pdf # STR-based SSN block diagram (from the paper)
 └── README.md
-<\pre>
+</pre>
 
 **## 🛠️ Requirements
 **
