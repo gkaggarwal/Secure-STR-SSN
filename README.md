@@ -1,4 +1,6 @@
 # Secure-STR-SSN
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![RT-Level: VHDL](https://img.shields.io/badge/RT--Level-VHDL-8877cc.svg)
 
 ## 🔒 Overview
 
